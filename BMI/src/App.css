@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(36, 36, 72);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-container{
+  background-color: antiquewhite;
+  padding: 30px;
+  border-radius: 8px;
+  height: 400px;
+}
+
+img{
+  margin-top: 40px;
+}
+.input-container{
+  padding: 15px;
+}
+input[type="text"]{
+border: 2px solid rgb(36, 36, 72);
+padding: 10px;
+border-radius: 5px;
+margin-left: 30px;
+}
+label{
+  font-size:larger;
+  font-weight: 500;
+}
+.button , button{
+  font-size: large;
+  padding: 8px;
+  gap: 10px;
+  border-radius: 5px;
+  /* border: none; */
+  display: flex;
+}
+.cal-btn{
+  background-color: rgb(52, 59, 100);
+  color: white;
+}
+.clear-btn{
+  background-color: rgb(139, 68, 38);
+  color: white;
+  width: 80px;
+  text-align: center;
+  justify-content: center;
+}
+.result{
+  border: 2px solid rgb(36, 36, 72);
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: 700;
+}
+p{
+  margin-left: 10px;
+}
+
+.data{
+  margin-left: 460px;
+  margin-top: -400px;
+}
